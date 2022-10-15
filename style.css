@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(56deg, yellow, blue, purple, orange);
+}
+
+.svetofor {
+  width: 10rem;
+  height: 20rem;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+  border-radius: 15px;
+}
+
+.qizil {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: red;
+  cursor: pointer;
+}
+.sariq {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: yellow;
+  cursor: pointer;
+}
+.yashil {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  background-color: rgb(102, 255, 0);
+  cursor: pointer;
+}
+
+.qizil {
+  background-color: rgb(179, 11, 11);
+}
+
+.sariq {
+  background-color: rgb(206, 202, 2);
+}
+
+.yashil {
+  background-color: rgb(1, 255, 1);
+}
+
+.text {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 25rem;
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 768px) {
+  .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    margin-top: 25rem;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.7rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+}
